@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Anum Tariq 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 🎵 Background Music -->
+  <audio autoplay loop id="music">
+    <source src="music.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- ⏳ Countdown Section -->
+  <div class="countdown-wrapper">
+    <img src="countdown.gif" alt="Countdown" class="countdown-gif">
+    <h1 id="countdown">10</h1>
+  </div>
+
+  <!-- 🎆 Fireworks Canvas -->
+  <canvas id="fireworks-canvas"></canvas>
+
+  <!-- 🧊 3D Cube with Images -->
+  <div class="cube-wrapper">
+    <div class="cube">
+      <div class="face front"><img src="photo1.jpg" /></div>
+      <div class="face back"><img src="photo2.jpg" /></div>
+      <div class="face right"><img src="photo3.jpg" /></div>
+      <div class="face left"><img src="photo4.jpg" /></div>
+      <div class="face top"><img src="photo5.jpg" /></div>
+      <div class="face bottom"><img src="photo6.jpg" /></div>
+    </div>
+  </div>
+
+  <!-- 💬 Birthday Messages -->
+  <div class="messages">
+    <button onclick="showMessage('Happy Birthday Anum! You are amazing 💖')">🎂 Wish 1</button>
+    <button onclick="showMessage('Every moment with you is a gift. Love you always 💕')">🎈 Wish 2</button>
+    <button onclick="showMessage('Here’s to your smile and sunshine! 🌟')">🌹 Wish 3</button>
+    <p id="message-box"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
